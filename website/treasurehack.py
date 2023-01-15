@@ -24,7 +24,7 @@ def home():
     st.text("""Welcome to our machine learning water classification app. This system can 
 accurately classify water as drinkable or non-drinkable based on scientifically 
 measurable factors that are inputted. Please use the menu bar above to navigate 
-to our model page and test it out for free. """)  
+to our classifier page and test it out for free. """)  
     st.text("") 
     st.text("")
     st.image(imagetwo)
@@ -36,8 +36,8 @@ def network():
         st.text(""" This system was trained using a random forest classification model and a large
 dataset which can be seen on the next page. Based on the input of several 
 scientific measurements of water, this system is able to determine the 
-potability of water at a 97% accuracy. A model output of "[1.]" indicates 
-it is drinkable and a model output of "[0.]" indicates that the water is NOT 
+potability of water at a 97% accuracy. An output of "[1.]" indicates 
+it is drinkable and an output of "[0.]" indicates that the water is NOT 
 drinkable. """)
         st.text(""" Example inputs that result in the prediction of drinkable water: 
         0.02, 6.78, 16.08, 0.35, 9.08, 0.34, 0.04, 37.75, 0.007, 1.65 """)
