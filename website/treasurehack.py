@@ -23,7 +23,7 @@ def home():
     st.title("Home")  
     st.text("""Welcome to our machine learning water classification app. This system can 
 accurately classify water as drinkable or non-drinkable based on scientifically 
-measurable factors are inputted. Please use the menu bar above to navigate 
+measurable factors that are inputted. Please use the menu bar above to navigate 
 to our model page and test it out for free. """)  
     st.text("") 
     st.text("")
@@ -82,7 +82,8 @@ Dhruv is a senior who recently committed to Duke and Nik is a junior hoping to
 commit to UVA. Both team members decided to create a water prediction app because
 this is a large problem for disadvantaged communities in third-world countries. 
 In the future, we hope to continue working on this project and potentially partner 
-with a non-profit organization to scale this functional solution to this important problem.""")
+with a non-profit organization to scale this functional solution to this important
+problem.""")
     st.text("") 
     st.text("")
     st.image(image)
